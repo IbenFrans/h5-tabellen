@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, sans-serif;
+}
+table{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+    caption-side: bottom;
+}
+table td, table th{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+table thead{
+    background-color: #9e9ea0;
+}
+table tbody tr:nth-child(odd){
+    background-color: #62aab2;
+}
+table tbody tr:nth-child(even){
+    background-color: #65b274;
+}
+table tbody tr:nth-child(3){
+    background-color: #65b274;
+}
+table tbody tr:first-child{
+    font-weight: bold;
+    color: #00f7b3;
+}

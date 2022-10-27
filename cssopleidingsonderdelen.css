@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, sans-serif;
+}
+table{
+    border: 2px solid #000a34;
+    border-collapse: collapse;
+    width: 600px;
+    table-layout: fixed;
+    caption-side: bottom;
+}
+table th, table td{
+    border: 2px solid #000a34;
+    padding: 5px;
+    text-align: left;
+}
