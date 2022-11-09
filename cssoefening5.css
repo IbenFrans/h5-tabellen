@@ -9,7 +9,7 @@ main section{
     border: 3px solid #4b0000;
     padding: 10px 10px;
     margin: 0 0 20px 0 ;
-    width: 800px;
+    width: 500px;
 
 }
 main section h1, main section p{
@@ -19,13 +19,16 @@ main table{
     border-collapse: collapse;
     table-layout: fixed;
     border: 3px solid #4b0000;
-    width: 820px;
+    width: 493px;
 }
 main table tr, main table td{
     border: 2px solid #4b0000;
+
 }
-main table td:empty{
-    padding: 50px;
+main table td{
+    width: 65px;
+    height: 65px;
+    text-align: center;
 
 }
 /* zwarte tiles */
@@ -41,9 +44,4 @@ main table tr:nth-child(even) > td:nth-child(even){
 }
 main table tr:nth-child(odd) > td:nth-child(odd){
     background-image: url("assets/witte-marmer.jpg")
-}
-/* stukken */
-img {
-    width: 30%;
-    padding: 20px;
 }
